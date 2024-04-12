@@ -1,0 +1,20 @@
+
+.mainLayout{
+    position: fixed;
+    background-image: url('../../assets/background.jpg'); /* or absolute depending on your layout */
+    top: 0;
+    left: 0;
+    background-size:cover;
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    z-index: -1;
+}
+.layerOntop{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    z-index: 0;
+}
